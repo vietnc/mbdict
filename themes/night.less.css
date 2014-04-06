@@ -1,0 +1,20 @@
+body.theme-night {
+  background-color: #313131;
+  color: #f0f0f0;
+}
+body.theme-night a,
+body.theme-night h1,
+body.theme-night h2,
+body.theme-night h3,
+body.theme-night h4,
+body.theme-night h5,
+body.theme-night h6 {
+  color: #56b8d8;
+}
+body.theme-night table {
+  background-color: #424242;
+  color: #f0f0f0;
+  border: none;
+  /* They're defined for the th anyway */
+
+}

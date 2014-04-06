@@ -1,0 +1,87 @@
+/* Theme based off http://ethanschoonover.com/solarized */
+.highlight-box {
+  background-color: #073642 !important;
+  color: #eee8d5 !important;
+}
+body.theme-solarized-dark {
+  background-color: #002b36;
+  color: #fdf6e3;
+  /* App styles */
+
+  /* Icons - copied specs from app.css
+	   TODO: De-spritify things! */
+
+  /* Content styles */
+
+  /* HERE LIE HACKS! */
+
+}
+body.theme-solarized-dark .overlay {
+  background-color: #002b36;
+}
+body.theme-solarized-dark .overlay .listItemContainer,
+body.theme-solarized-dark .overlay #settingsList div.item {
+  border-bottom: 1px solid #073642;
+}
+body.theme-solarized-dark .overlay a {
+  color: #eee8d5 !important;
+}
+body.theme-solarized-dark .overlay select {
+  color: #fdf6e3 !important;
+}
+body.theme-solarized-dark #about-page-overlay {
+  background: #002b36;
+  color: #eee8d5;
+}
+body.theme-solarized-dark #about-page-overlay #about-version {
+  color: #fdf6e3;
+}
+body.theme-solarized-dark #mf-references {
+  /* Flip stuff around for Reference reveal */
+
+  background-color: #fdf6e3;
+  color: #002b36;
+}
+body.theme-solarized-dark #mf-references a {
+  color: #859900;
+}
+body.theme-solarized-dark #mf-references h3 {
+  color: #002b36;
+}
+body.theme-solarized-dark .deleteButton {
+  background: url(themes/solarized-dark/spr.png) 9px -95px no-repeat;
+}
+body.theme-solarized-dark .iconSavedPage,
+body.theme-solarized-dark .iconHistory,
+body.theme-solarized-dark .iconSearchResult {
+  background: url(themes/solarized-dark/spr.png) -49px -100px no-repeat;
+}
+body.theme-solarized-dark .section_heading.openSection button {
+  background-image: url(themes/solarized-dark/hide.png);
+}
+body.theme-solarized-dark .section_heading button {
+  background-image: url(themes/solarized-dark/show.png);
+}
+body.theme-solarized-dark h1,
+body.theme-solarized-dark h2,
+body.theme-solarized-dark h3,
+body.theme-solarized-dark h4,
+body.theme-solarized-dark h5,
+body.theme-solarized-dark h6 {
+  color: #fdf6e3;
+}
+body.theme-solarized-dark a {
+  color: #859900;
+}
+body.theme-solarized-dark .colorOverride {
+  background-color: #073642 !important;
+  color: #fdf6e3 !important;
+}
+body.theme-solarized-dark div.quotebox {
+  background-color: #073642 !important;
+  color: #eee8d5 !important;
+  border-color: #586e75 !important;
+}
+body.theme-solarized-dark .highlight.disabled {
+  color: #93a1a1;
+}
