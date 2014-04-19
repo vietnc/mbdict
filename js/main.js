@@ -26,7 +26,10 @@ function init() {
     //vietnc
     if (navigator.userAgent.match(/(iPhone|iPod|iPad|Android|BlackBerry)/)) {
         $(document.body).addClass('jsEnabled');
-        document.addEventListener("deviceready", function() {chrome.initialize(); }, true);
+        document.addEventListener("deviceready", function() {chrome.initialize(); 
+		    chrome.initialize();
+            onDeviceReady(); 
+		}, true);
     } else {
         onDeviceReady();
     }
